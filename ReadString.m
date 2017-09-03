@@ -1,6 +1,6 @@
 clc; clear all;
 
-wonsu0513 = 2; % 빈칸앞에 표시되는 단어수 설장 1인경우 Matlab -> M_____;
+wonsu0513 = 1; % 빈칸앞에 표시되는 단어수 설장 1인경우 Matlab -> M_____;
 
 fp = fopen('BeforeReading.txt','r'); % 리딩자료 입력 'BeforeReading.txt'파일에 자료 넣고 저장하시면됩니다.
 InputFileString = textscan(fp,'%s');
